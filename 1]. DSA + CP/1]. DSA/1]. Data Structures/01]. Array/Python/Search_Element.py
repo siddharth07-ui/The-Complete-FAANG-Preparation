@@ -15,11 +15,12 @@ def search(arr, element):
 
 
 arr = [20, 5, 7, 25]
-element = 1
+element = 7
 
 print("Array Searched:", arr)
 print("Searching for:", element)
-if search(arr, element) == -1:
+result = search(arr, element)
+if result == -1:
     print("Element not found")
 else:
-    print("Searched index =", search(arr, element))
+    print("Searched index =", result)
