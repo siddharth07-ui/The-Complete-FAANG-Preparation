@@ -25,7 +25,7 @@ def delete(arr, element):
 
 
 arr = [1, 2, 3, 5]
-element = 4
+element = 5
 
 print("Before deletion:", arr)
 print("Deleting:", element)
